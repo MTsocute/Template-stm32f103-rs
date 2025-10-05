@@ -20,7 +20,6 @@
                 "flashingEnabled": true,
                 "haltAfterReset": false,
                 "formatOptions": {
-                    //!MODIFY (or remove). Valid values are: 'bin', 'hex', 'elf'(default), 'idf'
                     "binaryFormat": "elf"
                 }
             },
@@ -28,12 +27,10 @@
                 {
                     "coreIndex": 0,
                     "rttEnabled": true,
-                    //!MODIFY
                     "programBinary": "target/thumbv7m-none-eabi/debug/blinky",
                 }
             ],
             "env": {
-                //!MODIFY (or remove)
                 // If you set this variable, check the VSCode console log window for the location of the log file.
                 "RUST_LOG": "info"
             },
